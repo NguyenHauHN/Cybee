@@ -21,9 +21,14 @@ class Banner extends Component{
   render(){
     return (
       <div className="Banner">
-        <div>
-
+        <div className="Content-banner">
+            <div className="Quote Quote-left">Miễn phí 90 ngày</div>
+            <div>RÀ QUÉT LỖ HỔNG BẢO MẬT WEBSITE</div>
+            <div className="Quote Quote-right">trị giá 1.800.000 vnd</div>
         </div>
+          <div>
+              <div className="Button-trial">Đăng ký dùng thử</div>
+          </div>
       </div>
     )
   }

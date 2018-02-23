@@ -33,4 +33,45 @@
     max-height: 500px;
     height: 500px;
     background-image: url("./images/banner.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Content-banner{
+    background-color: rgba(81, 107, 132, 0.5);
+    color: #fff;
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 28px;
+}
+
+.Button-trial{
+    background-color: #499bd6;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 30px;
+    font-size:18px;
+    font-weight:bold;
+}
+.Quote-left, .Quote-right{
+     quotes: "“" "”" "‘" "’";
+}
+.Quote-left:before,
+.Quote-right:after{
+    position: absolute;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+.Quote-left:before{
+    content: open-quote;
+     top: 0; left: 10px;
+}
+.Quote-right:after{
+    content: close-quote;
+    bottom: 0; right: 10px;
 }
