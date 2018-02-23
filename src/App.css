@@ -1,0 +1,36 @@
+@import '~antd/dist/antd.css';
+
+.App {
+    text-align: center;
+}
+
+.Header-gradient {
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(to right, #1d9ad6, #fcaf17);
+}
+
+.Header-inner {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 20px 0 25px 0;
+}
+
+.Logo-host {
+    width: 180px;
+}
+
+.Logo-cybee-2{
+    width: 175px;
+}
+
+.Banner {
+    width: 100%;
+    max-height: 500px;
+    height: 500px;
+    background-image: url("./images/banner.png");
+}
