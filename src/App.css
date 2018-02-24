@@ -49,13 +49,12 @@
 
 .Button-trial{
     background-color: #499bd6;
-    padding: 10px;
+    padding: 6px 24px;
     color: #fff;
     display: inline-block;
     border-radius: 4px;
     margin-top: 30px;
-    font-size:18px;
-    font-weight:bold;
+    font-size:16px;
 }
 .Quote-left, .Quote-right{
      quotes: "“" "”" "‘" "’";
